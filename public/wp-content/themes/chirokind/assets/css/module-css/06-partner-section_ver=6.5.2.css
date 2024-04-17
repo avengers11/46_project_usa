@@ -1,0 +1,265 @@
+/*** 
+=============================================
+    Partner Area Css
+=============================================
+***/
+.partner-area {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    background-color: #232932;
+    z-index: 10;
+}
+
+.partner-area__sec-title {
+    position: relative;
+    display: block;
+    text-align: center;
+    z-index: 1;
+}
+
+.partner-area__sec-title:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #50545a;
+}
+
+
+.partner-area__sec-title h3 {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.partner-area__sec-title h3 span {
+    position: relative;
+    display: inline-block;
+    background-color: #232932;
+    padding: 0 20px;
+}
+
+
+.brand-content {
+    position: relative;
+    display: block;
+    padding: 42px 0 45px;
+}
+
+.single-partner-logo-box {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1;
+}
+
+.single-partner-logo-box:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(255, 255, 255, 0.3);
+    transform: perspective(400px) scaleX(0);
+    transform-origin: center;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.single-partner-logo-box:hover:before {
+    transform: perspective(400px) scaleX(1.0);
+}
+
+.single-partner-logo-box a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0px 0 0px;
+}
+
+.single-partner-logo-box a img {
+    position: relative;
+    display: inline-block !important;
+    opacity: 1.0;
+    width: auto !important;
+    transition: all 0.2s ease-in-out 0.1s;
+    mix-blend-mode: screen;
+}
+
+.single-partner-logo-box:hover a img {
+    opacity: 0.90;
+    transition: all 0.8s ease-in-out 0.1s;
+}
+
+
+
+
+/*** 
+=============================================
+    Partner Style2 Area Css
+=============================================
+***/
+.partner-style2-area {
+    position: relative;
+    display: block;
+    padding-top: 93px;
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+.partner-style2-area.pdtop {
+    padding-top: 63px
+}
+
+.partner-style2-area__sec-title {
+    position: relative;
+    display: block;
+}
+
+.partner-style2-area__sec-title h2 {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 46px;
+}
+
+.partner-style2-area__sec-title h2:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 9px;
+    right: 0;
+    height: 1px;
+    background-color: #d5d4d3;
+}
+
+.partner-style2-area__sec-title h2 span {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.brand-content--style2 .single-partner-logo-box:before {
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #d5d4d3;
+}
+
+.partner-style2-area .brand-content {
+    padding: 30px 0 90px;
+}
+
+
+
+/*** 
+=============================================
+    Partner Style3 Area Css
+=============================================
+***/
+.partner-style3-area {
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+.partner-style3-area__sec-title {
+    position: relative;
+    display: block;
+    text-align: center;
+    z-index: 1;
+}
+
+.partner-style3-area__sec-title:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #d5d4d3;
+}
+
+
+.partner-style3-area__sec-title h3 {
+    color: #444444;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.partner-style3-area__sec-title h3 span {
+    position: relative;
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 0 20px;
+}
+
+
+
+
+/*** 
+=============================================
+    Partner Style4 Area Css
+=============================================
+***/
+.partner-style4-area {
+    position: relative;
+    display: block;
+    background-color: #f7f7f9;
+    z-index: 10;
+}
+
+.partner-style4-area__sec-title {
+    position: relative;
+    display: block;
+    text-align: center;
+    z-index: 1;
+}
+
+.partner-style4-area__sec-title:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #d5d4d3;
+}
+
+
+.partner-style4-area__sec-title h3 {
+    color: #444444;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.partner-style4-area__sec-title h3 span {
+    position: relative;
+    display: inline-block;
+    background-color: #f7f7f9;
+    padding: 0 20px;
+}
+
+
+
+
+.partner-style2-area--h15 {
+    padding-top: 63px;
+}

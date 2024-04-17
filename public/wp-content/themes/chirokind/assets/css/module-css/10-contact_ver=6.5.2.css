@@ -1,0 +1,214 @@
+/*** 
+=============================================
+    Google Map Style1 Css
+=============================================
+***/
+.google-map-style1 {
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    padding: 120px 0 0;
+    z-index: 10;
+}
+
+.google-map-style1 .google-map__one {
+    height: 460px;
+    width: 100%;
+    mix-blend-mode: luminosity;
+}
+
+
+
+/*** 
+=============================================
+    Main Contact Form Area Css
+=============================================
+***/
+.main-contact-form-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 91px 0px 114px;
+    z-index: 10;
+}
+
+
+.contact-form {
+    position: relative;
+    display: block;
+}
+
+.contact-form form {
+    position: relative;
+    display: block;
+}
+
+.contact-form form .form-group {
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.contact-form form .input-box {
+    position: relative;
+    display: block;
+}
+
+.contact-form form input[type="text"],
+.contact-form form input[type="email"],
+.contact-form form textarea {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    border: 0px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    width: 100%;
+    height: 50px;
+    color: #444444;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 0px;
+    transition: all 500ms ease;
+    font-family: var(--thm-font);
+}
+
+.contact-form form input[type="text"]:focus,
+.contact-form form input[type="email"]:focus,
+.contact-form form textarea:focus {
+    border-bottom: 1px solid var(--thm-base);
+    outline: none;
+}
+
+.contact-form form textarea {
+    height: 103px;
+}
+
+.contact-form form input[type="text"]::-webkit-input-placeholder {
+    color: #444444;
+}
+
+.contact-form form input[type="text"]:-moz-placeholder {
+    color: #444444;
+}
+
+.contact-form form input[type="text"]::-moz-placeholder {
+    color: #444444;
+}
+
+.contact-form form input[type="text"]:-ms-input-placeholder {
+    color: #444444;
+}
+
+
+.contact-form form input[type="email"]::-webkit-input-placeholder {
+    color: #444444;
+}
+
+.contact-form form input[type="email"]:-moz-placeholder {
+    color: #444444;
+}
+
+.contact-form form input[type="email"]::-moz-placeholder {
+    color: #444444;
+}
+
+.contact-form form input[type="email"]:-ms-input-placeholder {
+    color: #444444;
+}
+
+
+.contact-form form textarea::-webkit-input-placeholder {
+    color: #444444;
+}
+
+.contact-form form textarea:-moz-placeholder {
+    color: #444444;
+}
+
+.contact-form form textarea::-moz-placeholder {
+    color: #444444;
+}
+
+.contact-form form textarea:-ms-input-placeholder {
+    color: #444444;
+}
+
+.contact-form form .button-box {
+    position: relative;
+    display: block;
+    line-height: 0;
+    padding-top: 10px;
+}
+
+
+
+
+.contact-info-box-style1 {
+    position: relative;
+    display: block;
+    padding-top: 13px;
+}
+
+.contact-info-box-style1 .title {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.contact-info-box-style1 .title h2 {
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: 900;
+}
+
+
+.contact-info-1 {
+    position: relative;
+    display: block;
+}
+
+.contact-info-1 li {
+    position: relative;
+    display: block;
+}
+
+.contact-info-1 li+li {
+    font-weight: 600;
+    margin-top: 23px;
+}
+
+.contact-info-1 li p {
+    color: #444444;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.contact-info-1 li a {
+    color: #444444;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.contact-info-1 li a.phone {
+    font-weight: 600;
+}
+
+.contact-info-1 li a:hover {
+    color: var(--thm-base);
+}
+
+
+
+
+
+
+/*** 
+=============================================
+    End Css
+=============================================
+***/
