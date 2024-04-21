@@ -100,13 +100,13 @@
                                                     <p class="title">Ready to start your journey to improved health and wellness? Contact Boyd Physical Therapy today to schedule an appointment or learn more about our services. Our friendly and knowledgeable staff is here to answer any questions you may have and assist you every step of the way.
                                                     </p>
                                                     <li>
-                                                        <a class="phone te-phone" href="tel:1-800-555-1234">1-800-555-1234</a><br />
+                                                        <a class="phone te-phone" href="tel:563-265-3030">563-265-3030</a><br />
                                                         <a class="te-email" href="mailto:info@boydphysicaltherapy.com">info@boydphysicaltherapy.com</a>
                                                     </li>
                                                     <li>
                                                         <p class="te-address">
-                                                            123 Main Street,<br />
-                                                            Anytown, USA
+                                                            9432 Ctpress Ln,<br />
+                                                            Jonesboro GA 30238
                                                         </p>
                                                     </li>
                                                     <p style="margin-top: 20px" class="title">Don't let pain or injury hold you back. Contact Boyd Physical Therapy today and let us help you get back to doing the things you love.
