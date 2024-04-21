@@ -716,7 +716,7 @@
                     <div class="inner-content">
                         <div class="main-header-style2__top-left">
                             <div class="logo-box-style1">
-                                <a  href="{{url('')}}" title="Chirokind"><img style="height: 5rem;" src="{{asset('wp-content/uploads/2023/07/footer-logo-1.png')}}" alt="logo" style="" /></a>
+                                <a  href="{{url('')}}" title="Chirokind"><img style="height: 5rem;" src="{{asset('wp-content\uploads\2023\07\main-logo.jpg')}}" alt="logo" style="" /></a>
                             </div>
                         </div>
 
